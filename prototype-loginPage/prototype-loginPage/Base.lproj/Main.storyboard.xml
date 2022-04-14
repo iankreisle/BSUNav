@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="prototype_loginPage" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="boiseStateLoginBackground" translatesAutoresizingMaskIntoConstraints="NO" id="Y0P-89-dbq">
+                                <rect key="frame" x="-1" y="-9" width="414" height="903"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="414" id="89s-Jr-00k"/>
+                                    <constraint firstAttribute="height" constant="903" id="GH6-Kr-x7w"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ogb-Oy-dZ0">
+                                <rect key="frame" x="38" y="584" width="338" height="153"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="teN-Ok-MIy">
+                                        <rect key="frame" x="0.0" y="0.0" width="338" height="34"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jR6-v1-hSY">
+                                                <rect key="frame" x="0.0" y="0.0" width="338" height="34"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="jR6-v1-hSY" firstAttribute="centerX" secondItem="teN-Ok-MIy" secondAttribute="centerX" id="5OZ-7R-q14"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="SYn-ZT-fiG">
+                                        <rect key="frame" x="0.0" y="51" width="338" height="34"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uee-Qs-O46">
+                                                <rect key="frame" x="0.0" y="0.0" width="338" height="34"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="0Po-Ek-zMc">
+                                        <rect key="frame" x="0.0" y="102" width="338" height="51"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nLV-4W-wiU">
+                                                <rect key="frame" x="0.0" y="0.0" width="338" height="51"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="51" id="40q-qP-uUK"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="338" id="Zws-Pd-yyE"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="gray" imagePlacement="leading" cornerStyle="capsule">
+                                                    <imageReference key="image" image="arrow.turn.down.right" catalog="system" symbolScale="large"/>
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Sign in">
+                                                            <attributes>
+                                                                <font key="NSFont" size="20" name="DINAlternate-Bold"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="baseBackgroundColor" systemColor="systemOrangeColor"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.086274509803921567" green="0.086274509803921567" blue="0.094117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Y0P-89-dbq" secondAttribute="trailing" constant="1" id="39A-Rq-DVE"/>
+                            <constraint firstItem="teN-Ok-MIy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="540" id="4Bp-9t-xcd"/>
+                            <constraint firstItem="Ogb-Oy-dZ0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="38" id="4Ni-EO-Xeh"/>
+                            <constraint firstItem="SYn-ZT-fiG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="38" id="DLR-AZ-akm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Ogb-Oy-dZ0" secondAttribute="bottom" constant="125" id="DaB-Fq-qc4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="Y0P-89-dbq" secondAttribute="top" constant="53" id="Geh-NU-1Se"/>
+                            <constraint firstItem="Ogb-Oy-dZ0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="J1y-a7-mte"/>
+                            <constraint firstItem="teN-Ok-MIy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="38" id="JRu-A3-vh3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="leading" secondItem="Y0P-89-dbq" secondAttribute="leading" constant="1" id="Lnq-Zh-M7H"/>
+                            <constraint firstItem="SYn-ZT-fiG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="591" id="Yxo-CS-vXr"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="Y0P-89-dbq" secondAttribute="bottom" constant="-32" id="aNc-Lx-yQr"/>
+                            <constraint firstItem="Y0P-89-dbq" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-53" id="cxl-K1-Jls"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="teN-Ok-MIy" secondAttribute="bottom" constant="244" id="dBC-0F-y1c"/>
+                            <constraint firstItem="Y0P-89-dbq" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="32" id="fJq-7J-car"/>
+                            <constraint firstItem="0Po-Ek-zMc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="38" id="p7Y-RX-Hs6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="SYn-ZT-fiG" secondAttribute="bottom" constant="193" id="pO1-pg-vLV"/>
+                            <constraint firstItem="Y0P-89-dbq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-21" id="wHc-17-PmR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="0Po-Ek-zMc" secondAttribute="bottom" constant="125" id="yGM-V8-CbW"/>
+                            <constraint firstItem="Ogb-Oy-dZ0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="540" id="ziN-ej-nbn"/>
+                            <constraint firstItem="0Po-Ek-zMc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="642" id="zmM-rr-KND"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="passwordTextField" destination="uee-Qs-O46" id="CIi-BJ-mMD"/>
+                        <outlet property="signInButton" destination="nLV-4W-wiU" id="WvR-MO-ltc"/>
+                        <outlet property="usernameTextField" destination="jR6-v1-hSY" id="0xL-XB-VUD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-472" y="88"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arrow.turn.down.right" catalog="system" width="128" height="99"/>
+        <image name="boiseStateLoginBackground" width="1251" height="2511"/>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BV1-FR-VrT">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tXr-a1-R10">
+            <objects>
+                <viewController id="BV1-FR-VrT" customClass="ViewController" customModule="prototype" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="U0K-SW-4ec">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BrB-h1-WRS">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
+                            </arscnView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z1H-Rc-3Xk">
+                                <rect key="frame" x="145" y="494" width="45" height="45"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="AIa-EY-kvL"/>
+                                    <constraint firstAttribute="width" secondItem="Z1H-Rc-3Xk" secondAttribute="height" multiplier="1:1" id="B5e-tC-b5W"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="44" id="ue4-Rx-lMg"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="" cornerStyle="capsule">
+                                    <imageReference key="image" image="bell" catalog="system" symbolScale="large"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="large"/>
+                                    <color key="baseBackgroundColor" systemColor="opaqueSeparatorColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="notificationButton:" destination="BV1-FR-VrT" eventType="touchUpInside" id="krH-gd-teN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i16-n9-lvq">
+                                <rect key="frame" x="184.5" y="400" width="45" height="45"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="i16-n9-lvq" secondAttribute="height" multiplier="1:1" id="AIQ-LU-Mvh"/>
+                                    <constraint firstAttribute="height" constant="45" id="aIN-fD-Ik4"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="44" id="irX-qd-QxO"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="" cornerStyle="capsule">
+                                    <imageReference key="image" image="person.fill" catalog="system" symbolScale="large"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="large"/>
+                                    <color key="baseBackgroundColor" systemColor="opaqueSeparatorColor"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ka4-Z1-AjK">
+                                <rect key="frame" x="20" y="400" width="45" height="45"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Ka4-Z1-AjK" secondAttribute="height" multiplier="1:1" id="D7e-JU-BEg"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="44" id="Sal-G1-wbT"/>
+                                    <constraint firstAttribute="height" constant="45" id="viz-3m-QJX"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="" cornerStyle="capsule">
+                                    <imageReference key="image" image="arkit" catalog="system" symbolScale="large"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="large"/>
+                                    <color key="baseBackgroundColor" systemColor="opaqueSeparatorColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="menuButton:" destination="BV1-FR-VrT" eventType="touchUpInside" id="5i6-Ic-Hwd"/>
+                                    <action selector="menuButtonWithSender:" destination="BV1-FR-VrT" eventType="touchUpInside" id="QJ0-ej-AEV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v95-Sc-369">
+                                <rect key="frame" x="70" y="564" width="45" height="45"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="FkH-eH-Nm4"/>
+                                    <constraint firstAttribute="width" secondItem="v95-Sc-369" secondAttribute="height" multiplier="1:1" id="RCG-d5-fvi"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="44" id="Xnz-8S-IvN"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="" cornerStyle="capsule">
+                                    <imageReference key="image" image="questionmark" catalog="system" symbolScale="large"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="large"/>
+                                    <color key="baseBackgroundColor" systemColor="opaqueSeparatorColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="helpButton:" destination="BV1-FR-VrT" eventType="touchUpInside" id="iwC-H5-6y0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FDo-GR-2aN">
+                                <rect key="frame" x="145" y="306" width="45" height="45"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="4kX-kd-STc"/>
+                                    <constraint firstAttribute="width" secondItem="FDo-GR-2aN" secondAttribute="height" multiplier="1:1" id="6kl-zZ-t0r"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="44" id="UI6-TT-pnN"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="" cornerStyle="capsule">
+                                    <imageReference key="image" image="map" catalog="system" symbolScale="large"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="large"/>
+                                    <color key="baseBackgroundColor" systemColor="opaqueSeparatorColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="mapButton:" destination="BV1-FR-VrT" eventType="touchUpInside" id="MeO-xd-Qqp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sd0-P7-lEN">
+                                <rect key="frame" x="20" y="62" width="44" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="44" id="DOC-ZV-Ztg"/>
+                                    <constraint firstAttribute="height" constant="45" id="PG9-ma-YVJ"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" image="figure.wave" catalog="system" cornerStyle="capsule">
+                                    <color key="baseBackgroundColor" systemColor="opaqueSeparatorColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="accessButton:" destination="BV1-FR-VrT" eventType="touchUpInside" id="v6u-uF-OIr"/>
+                                    <action selector="accessButtonWithSender:" destination="BV1-FR-VrT" eventType="touchUpInside" id="FRt-0g-Y9g"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0XP-I9-xoh">
+                                <rect key="frame" x="70" y="236" width="45" height="45"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="44" id="Ckk-6w-wei"/>
+                                    <constraint firstAttribute="height" constant="45" id="Rw8-WC-A4I"/>
+                                    <constraint firstAttribute="width" secondItem="0XP-I9-xoh" secondAttribute="height" multiplier="1:1" id="jia-tM-nrS"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="" cornerStyle="capsule">
+                                    <imageReference key="image" image="magnifyingglass" catalog="system" symbolScale="large"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="large"/>
+                                    <color key="baseBackgroundColor" systemColor="opaqueSeparatorColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="searchButton:" destination="BV1-FR-VrT" eventType="touchUpInside" id="Awb-pu-4ll"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Accessibility" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zPm-0a-cuA">
+                                <rect key="frame" x="91" y="70" width="130" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Search" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ilo-ID-dfk">
+                                <rect key="frame" x="139" y="244" width="73" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Map" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SyY-uN-jpS">
+                                <rect key="frame" x="214" y="314" width="46" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Notification" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bjp-Om-9jk">
+                                <rect key="frame" x="214" y="502" width="120" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Help" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g8Z-CV-8Nj">
+                                <rect key="frame" x="139" y="572" width="49" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qe2-oq-b9V">
+                                <rect key="frame" x="247" y="408" width="87" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="fQZ-KI-GVf"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Z1H-Rc-3Xk" firstAttribute="leading" secondItem="fQZ-KI-GVf" secondAttribute="leading" constant="145" id="7XD-Dm-79F"/>
+                            <constraint firstItem="zPm-0a-cuA" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="sd0-P7-lEN" secondAttribute="trailing" constant="8" symbolic="YES" id="9JL-VW-TmD"/>
+                            <constraint firstItem="0XP-I9-xoh" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="v95-Sc-369" secondAttribute="leading" id="9cS-Tt-KCb"/>
+                            <constraint firstItem="0XP-I9-xoh" firstAttribute="top" secondItem="fQZ-KI-GVf" secondAttribute="top" constant="192" id="9lq-gc-rxW"/>
+                            <constraint firstItem="Ka4-Z1-AjK" firstAttribute="baseline" secondItem="i16-n9-lvq" secondAttribute="baseline" id="CcC-P5-LJV"/>
+                            <constraint firstItem="Z1H-Rc-3Xk" firstAttribute="top" secondItem="i16-n9-lvq" secondAttribute="bottom" constant="49" id="DTQ-7p-j93"/>
+                            <constraint firstItem="Ka4-Z1-AjK" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="U0K-SW-4ec" secondAttribute="leadingMargin" id="F3d-bn-HuW"/>
+                            <constraint firstItem="sd0-P7-lEN" firstAttribute="top" secondItem="fQZ-KI-GVf" secondAttribute="top" constant="18" id="J27-Ak-nfv"/>
+                            <constraint firstItem="fQZ-KI-GVf" firstAttribute="trailing" secondItem="zPm-0a-cuA" secondAttribute="trailing" constant="193" id="LVf-pF-sLP"/>
+                            <constraint firstItem="BrB-h1-WRS" firstAttribute="leading" secondItem="U0K-SW-4ec" secondAttribute="leading" id="MCh-hA-lGB"/>
+                            <constraint firstItem="i16-n9-lvq" firstAttribute="top" secondItem="FDo-GR-2aN" secondAttribute="bottom" constant="49" id="Qrn-JD-F5z"/>
+                            <constraint firstItem="fQZ-KI-GVf" firstAttribute="trailing" secondItem="v95-Sc-369" secondAttribute="trailing" constant="299" id="RAj-WK-arr"/>
+                            <constraint firstItem="Ka4-Z1-AjK" firstAttribute="top" secondItem="fQZ-KI-GVf" secondAttribute="top" constant="356" id="SsF-jn-78h"/>
+                            <constraint firstItem="Z1H-Rc-3Xk" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="FDo-GR-2aN" secondAttribute="leading" id="UmD-VQ-P42"/>
+                            <constraint firstItem="zPm-0a-cuA" firstAttribute="centerY" secondItem="sd0-P7-lEN" secondAttribute="centerY" id="WOD-5D-BfW"/>
+                            <constraint firstItem="fQZ-KI-GVf" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="SyY-uN-jpS" secondAttribute="trailing" symbolic="YES" id="aG5-jS-9Vx"/>
+                            <constraint firstItem="i16-n9-lvq" firstAttribute="leading" secondItem="Ka4-Z1-AjK" secondAttribute="trailing" constant="119.5" id="aJJ-qm-Grh"/>
+                            <constraint firstItem="fQZ-KI-GVf" firstAttribute="bottom" secondItem="v95-Sc-369" secondAttribute="bottom" constant="253" id="abg-ad-qJ2"/>
+                            <constraint firstItem="Qe2-oq-b9V" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="i16-n9-lvq" secondAttribute="trailing" constant="8" symbolic="YES" id="bFE-DY-sCZ"/>
+                            <constraint firstItem="SyY-uN-jpS" firstAttribute="leading" secondItem="FDo-GR-2aN" secondAttribute="trailing" constant="24" id="bnO-HB-wEw"/>
+                            <constraint firstItem="BrB-h1-WRS" firstAttribute="bottom" secondItem="fQZ-KI-GVf" secondAttribute="bottom" id="bp0-uS-KPe"/>
+                            <constraint firstItem="Bjp-Om-9jk" firstAttribute="top" secondItem="Qe2-oq-b9V" secondAttribute="bottom" constant="65" id="dwj-E4-yUW"/>
+                            <constraint firstItem="fQZ-KI-GVf" firstAttribute="trailing" secondItem="ilo-ID-dfk" secondAttribute="trailing" constant="202" id="f7S-U7-Tmf"/>
+                            <constraint firstItem="sd0-P7-lEN" firstAttribute="leading" secondItem="Ka4-Z1-AjK" secondAttribute="leading" id="gJ8-zp-Mrw"/>
+                            <constraint firstItem="Qe2-oq-b9V" firstAttribute="centerY" secondItem="i16-n9-lvq" secondAttribute="centerY" id="hAi-bY-Uyx"/>
+                            <constraint firstItem="i16-n9-lvq" firstAttribute="centerX" secondItem="BrB-h1-WRS" secondAttribute="centerX" id="hB3-GI-V2Y"/>
+                            <constraint firstItem="i16-n9-lvq" firstAttribute="centerX" secondItem="U0K-SW-4ec" secondAttribute="centerX" id="jTi-NF-0c3"/>
+                            <constraint firstItem="ilo-ID-dfk" firstAttribute="centerY" secondItem="0XP-I9-xoh" secondAttribute="centerY" id="kPv-bj-bri"/>
+                            <constraint firstItem="SyY-uN-jpS" firstAttribute="centerY" secondItem="FDo-GR-2aN" secondAttribute="centerY" id="kzK-zz-9Rq"/>
+                            <constraint firstItem="ilo-ID-dfk" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="g8Z-CV-8Nj" secondAttribute="leading" id="mvC-Qi-gsY"/>
+                            <constraint firstItem="fQZ-KI-GVf" firstAttribute="trailing" secondItem="g8Z-CV-8Nj" secondAttribute="trailing" constant="226" id="pNX-n9-4b8"/>
+                            <constraint firstItem="0XP-I9-xoh" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="fQZ-KI-GVf" secondAttribute="leading" id="u2C-Y7-Jyw"/>
+                            <constraint firstItem="fQZ-KI-GVf" firstAttribute="trailing" secondItem="Z1H-Rc-3Xk" secondAttribute="trailing" constant="224" id="uY0-Hk-97o"/>
+                            <constraint firstItem="g8Z-CV-8Nj" firstAttribute="centerY" secondItem="v95-Sc-369" secondAttribute="centerY" id="w1c-0j-yUD"/>
+                            <constraint firstItem="BrB-h1-WRS" firstAttribute="top" secondItem="U0K-SW-4ec" secondAttribute="top" id="wqS-Xw-r3s"/>
+                            <constraint firstItem="fQZ-KI-GVf" firstAttribute="trailing" secondItem="FDo-GR-2aN" secondAttribute="trailing" constant="224" id="xh2-ie-qlt"/>
+                            <constraint firstItem="SyY-uN-jpS" firstAttribute="leading" secondItem="Bjp-Om-9jk" secondAttribute="leading" id="xse-fX-Fgg"/>
+                            <constraint firstItem="fQZ-KI-GVf" firstAttribute="trailing" secondItem="0XP-I9-xoh" secondAttribute="trailing" constant="299" id="ye5-21-j2x"/>
+                            <constraint firstItem="ilo-ID-dfk" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="0XP-I9-xoh" secondAttribute="trailing" symbolic="YES" id="ylr-Yu-jKE"/>
+                            <constraint firstItem="Qe2-oq-b9V" firstAttribute="trailing" secondItem="Bjp-Om-9jk" secondAttribute="trailing" id="zir-Fy-aWM"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="accessButton" destination="sd0-P7-lEN" id="qKy-VB-MqJ"/>
+                        <outlet property="accessLabel" destination="zPm-0a-cuA" id="Ne0-Dc-20j"/>
+                        <outlet property="accountButton" destination="i16-n9-lvq" id="1ye-FW-6s3"/>
+                        <outlet property="accountLabel" destination="Qe2-oq-b9V" id="6dp-OK-E2F"/>
+                        <outlet property="helpButton" destination="v95-Sc-369" id="pPV-iO-gam"/>
+                        <outlet property="helpLabel" destination="g8Z-CV-8Nj" id="Aus-J4-kws"/>
+                        <outlet property="mapButton" destination="FDo-GR-2aN" id="Y57-ZZ-H1U"/>
+                        <outlet property="mapLabel" destination="SyY-uN-jpS" id="Zx7-F1-htV"/>
+                        <outlet property="menuButton" destination="Ka4-Z1-AjK" id="evT-KN-qs3"/>
+                        <outlet property="notificationButton" destination="Z1H-Rc-3Xk" id="xPL-2R-EfP"/>
+                        <outlet property="notificationLabel" destination="Bjp-Om-9jk" id="lih-p2-6sX"/>
+                        <outlet property="sceneView" destination="BrB-h1-WRS" id="5nT-qQ-ynl"/>
+                        <outlet property="searchButton" destination="0XP-I9-xoh" id="pbU-NQ-5AC"/>
+                        <outlet property="searchLabel" destination="ilo-ID-dfk" id="7N3-t5-b6g"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="115.94202898550725" y="63.616071428571423"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arkit" catalog="system" width="128" height="128"/>
+        <image name="bell" catalog="system" width="128" height="124"/>
+        <image name="figure.wave" catalog="system" width="81" height="128"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="115"/>
+        <image name="map" catalog="system" width="128" height="110"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
+        <image name="questionmark" catalog="system" width="96" height="128"/>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
