@@ -5,10 +5,31 @@
   },
   "resources" : [
     {
-      "filename" : "lotion.arobject"
+      "filename" : "Chair.arobject"
     },
     {
-      "filename" : "wipes.arobject"
+      "filename" : "Enterance_B.arobject"
+    },
+    {
+      "filename" : "Entrance_Directory.arobject"
+    },
+    {
+      "filename" : "gimmHallway.arobject"
+    },
+    {
+      "filename" : "Information_Sign.arobject"
+    },
+    {
+      "filename" : "KadenBed.arobject"
+    },
+    {
+      "filename" : "KadenDesk.arobject"
+    },
+    {
+      "filename" : "Starbux_Sign.arobject"
+    },
+    {
+      "filename" : "Transportation_Sign.arobject"
     }
   ]
 }
