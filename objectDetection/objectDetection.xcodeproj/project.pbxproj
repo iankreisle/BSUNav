@@ -7,34 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D66BA42C281A151700FDB08D /* kadenDesk.sks in Resources */ = {isa = PBXBuildFile; fileRef = D66BA42B281A151600FDB08D /* kadenDesk.sks */; };
-		D66BA42E281A152B00FDB08D /* kadenBed.sks in Resources */ = {isa = PBXBuildFile; fileRef = D66BA42D281A152B00FDB08D /* kadenBed.sks */; };
-		D69BF08E2819A57C008F6633 /* gimmHallway.sks in Resources */ = {isa = PBXBuildFile; fileRef = D69BF08D2819A57C008F6633 /* gimmHallway.sks */; };
-		D69BF0902819A742008F6633 /* starbucks.sks in Resources */ = {isa = PBXBuildFile; fileRef = D69BF08F2819A742008F6633 /* starbucks.sks */; };
-		D69BF0922819A759008F6633 /* enterance_B.sks in Resources */ = {isa = PBXBuildFile; fileRef = D69BF0912819A759008F6633 /* enterance_B.sks */; };
-		D69BF0942819A76E008F6633 /* directoryEnterance.sks in Resources */ = {isa = PBXBuildFile; fileRef = D69BF0932819A76E008F6633 /* directoryEnterance.sks */; };
-		D69BF0962819A784008F6633 /* transportationSign.sks in Resources */ = {isa = PBXBuildFile; fileRef = D69BF0952819A784008F6633 /* transportationSign.sks */; };
-		D69BF0982819A79A008F6633 /* informationSign.sks in Resources */ = {isa = PBXBuildFile; fileRef = D69BF0972819A79A008F6633 /* informationSign.sks */; };
-		D69BF09A2819A9DC008F6633 /* chair.sks in Resources */ = {isa = PBXBuildFile; fileRef = D69BF0992819A9DC008F6633 /* chair.sks */; };
+		55FA21F8281B787000482BB2 /* Scene objects in Resources */ = {isa = PBXBuildFile; fileRef = 55FA21F7281B787000482BB2 /* Scene objects */; };
 		D6AD16ED280E3D1800EBD76C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AD16EC280E3D1800EBD76C /* AppDelegate.swift */; };
 		D6AD16EF280E3D1800EBD76C /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = D6AD16EE280E3D1800EBD76C /* art.scnassets */; };
 		D6AD16F1280E3D1800EBD76C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AD16F0280E3D1800EBD76C /* ViewController.swift */; };
 		D6AD16F4280E3D1800EBD76C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6AD16F2280E3D1800EBD76C /* Main.storyboard */; };
 		D6AD16F6280E3D1900EBD76C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6AD16F5280E3D1900EBD76C /* Assets.xcassets */; };
 		D6AD16F9280E3D1900EBD76C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6AD16F7280E3D1900EBD76C /* LaunchScreen.storyboard */; };
-		D6AD1700280E3E1300EBD76C /* productInfo.sks in Resources */ = {isa = PBXBuildFile; fileRef = D6AD16FF280E3E1300EBD76C /* productInfo.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D66BA42B281A151600FDB08D /* kadenDesk.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = kadenDesk.sks; sourceTree = "<group>"; };
-		D66BA42D281A152B00FDB08D /* kadenBed.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = kadenBed.sks; sourceTree = "<group>"; };
-		D69BF08D2819A57C008F6633 /* gimmHallway.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = gimmHallway.sks; sourceTree = "<group>"; };
-		D69BF08F2819A742008F6633 /* starbucks.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = starbucks.sks; sourceTree = "<group>"; };
-		D69BF0912819A759008F6633 /* enterance_B.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = enterance_B.sks; sourceTree = "<group>"; };
-		D69BF0932819A76E008F6633 /* directoryEnterance.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = directoryEnterance.sks; sourceTree = "<group>"; };
-		D69BF0952819A784008F6633 /* transportationSign.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = transportationSign.sks; sourceTree = "<group>"; };
-		D69BF0972819A79A008F6633 /* informationSign.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = informationSign.sks; sourceTree = "<group>"; };
-		D69BF0992819A9DC008F6633 /* chair.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = chair.sks; sourceTree = "<group>"; };
+		55FA21F7281B787000482BB2 /* Scene objects */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Scene objects"; sourceTree = "<group>"; };
 		D6AD16E9280E3D1800EBD76C /* objectDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = objectDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6AD16EC280E3D1800EBD76C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6AD16EE280E3D1800EBD76C /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -42,7 +25,6 @@
 		D6AD16F3280E3D1800EBD76C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D6AD16F5280E3D1900EBD76C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6AD16F8280E3D1900EBD76C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D6AD16FF280E3E1300EBD76C /* productInfo.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = productInfo.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,16 +63,7 @@
 				D6AD16F2280E3D1800EBD76C /* Main.storyboard */,
 				D6AD16F5280E3D1900EBD76C /* Assets.xcassets */,
 				D6AD16F7280E3D1900EBD76C /* LaunchScreen.storyboard */,
-				D6AD16FF280E3E1300EBD76C /* productInfo.sks */,
-				D69BF08D2819A57C008F6633 /* gimmHallway.sks */,
-				D69BF08F2819A742008F6633 /* starbucks.sks */,
-				D69BF0912819A759008F6633 /* enterance_B.sks */,
-				D69BF0952819A784008F6633 /* transportationSign.sks */,
-				D69BF0932819A76E008F6633 /* directoryEnterance.sks */,
-				D69BF0972819A79A008F6633 /* informationSign.sks */,
-				D69BF0992819A9DC008F6633 /* chair.sks */,
-				D66BA42B281A151600FDB08D /* kadenDesk.sks */,
-				D66BA42D281A152B00FDB08D /* kadenBed.sks */,
+				55FA21F7281B787000482BB2 /* Scene objects */,
 			);
 			path = objectDetection;
 			sourceTree = "<group>";
@@ -153,19 +126,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D69BF08E2819A57C008F6633 /* gimmHallway.sks in Resources */,
-				D69BF0982819A79A008F6633 /* informationSign.sks in Resources */,
-				D69BF09A2819A9DC008F6633 /* chair.sks in Resources */,
+				55FA21F8281B787000482BB2 /* Scene objects in Resources */,
 				D6AD16EF280E3D1800EBD76C /* art.scnassets in Resources */,
-				D6AD1700280E3E1300EBD76C /* productInfo.sks in Resources */,
 				D6AD16F9280E3D1900EBD76C /* LaunchScreen.storyboard in Resources */,
-				D66BA42C281A151700FDB08D /* kadenDesk.sks in Resources */,
-				D66BA42E281A152B00FDB08D /* kadenBed.sks in Resources */,
-				D69BF0962819A784008F6633 /* transportationSign.sks in Resources */,
-				D69BF0922819A759008F6633 /* enterance_B.sks in Resources */,
-				D69BF0942819A76E008F6633 /* directoryEnterance.sks in Resources */,
 				D6AD16F6280E3D1900EBD76C /* Assets.xcassets in Resources */,
-				D69BF0902819A742008F6633 /* starbucks.sks in Resources */,
 				D6AD16F4280E3D1800EBD76C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
