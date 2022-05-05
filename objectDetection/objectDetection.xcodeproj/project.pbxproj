@@ -7,7 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		55FA21F8281B787000482BB2 /* Scene objects in Resources */ = {isa = PBXBuildFile; fileRef = 55FA21F7281B787000482BB2 /* Scene objects */; };
+		D6882A47281B42D400B12DD1 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D6882A46281B42CE00B12DD1 /* video.mp4 */; };
+		D69BF08E2819A57C008F6633 /* gimmHallway.sks in Resources */ = {isa = PBXBuildFile; fileRef = D69BF08D2819A57C008F6633 /* gimmHallway.sks */; };
+		D69BF0902819A742008F6633 /* starbucks.sks in Resources */ = {isa = PBXBuildFile; fileRef = D69BF08F2819A742008F6633 /* starbucks.sks */; };
+		D69BF0922819A759008F6633 /* enterance_B.sks in Resources */ = {isa = PBXBuildFile; fileRef = D69BF0912819A759008F6633 /* enterance_B.sks */; };
+		D69BF0942819A76E008F6633 /* directoryEnterance.sks in Resources */ = {isa = PBXBuildFile; fileRef = D69BF0932819A76E008F6633 /* directoryEnterance.sks */; };
+		D69BF0962819A784008F6633 /* transportationSign.sks in Resources */ = {isa = PBXBuildFile; fileRef = D69BF0952819A784008F6633 /* transportationSign.sks */; };
+		D69BF0982819A79A008F6633 /* informationSign.sks in Resources */ = {isa = PBXBuildFile; fileRef = D69BF0972819A79A008F6633 /* informationSign.sks */; };
+		D69BF09A2819A9DC008F6633 /* chair.sks in Resources */ = {isa = PBXBuildFile; fileRef = D69BF0992819A9DC008F6633 /* chair.sks */; };
+		D6A5D1BE282360ED000AFBF5 /* plant.sks in Resources */ = {isa = PBXBuildFile; fileRef = D6A5D1BD282360ED000AFBF5 /* plant.sks */; };
+		D6A5D1C028236100000AFBF5 /* cafe_hall.sks in Resources */ = {isa = PBXBuildFile; fileRef = D6A5D1BF28236100000AFBF5 /* cafe_hall.sks */; };
+		D6A5D1C228236121000AFBF5 /* hole_wall.sks in Resources */ = {isa = PBXBuildFile; fileRef = D6A5D1C128236121000AFBF5 /* hole_wall.sks */; };
 		D6AD16ED280E3D1800EBD76C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AD16EC280E3D1800EBD76C /* AppDelegate.swift */; };
 		D6AD16EF280E3D1800EBD76C /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = D6AD16EE280E3D1800EBD76C /* art.scnassets */; };
 		D6AD16F1280E3D1800EBD76C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AD16F0280E3D1800EBD76C /* ViewController.swift */; };
@@ -17,7 +27,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		55FA21F7281B787000482BB2 /* Scene objects */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Scene objects"; sourceTree = "<group>"; };
+		D6882A46281B42CE00B12DD1 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
+		D69BF08D2819A57C008F6633 /* gimmHallway.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = gimmHallway.sks; sourceTree = "<group>"; };
+		D69BF08F2819A742008F6633 /* starbucks.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = starbucks.sks; sourceTree = "<group>"; };
+		D69BF0912819A759008F6633 /* enterance_B.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = enterance_B.sks; sourceTree = "<group>"; };
+		D69BF0932819A76E008F6633 /* directoryEnterance.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = directoryEnterance.sks; sourceTree = "<group>"; };
+		D69BF0952819A784008F6633 /* transportationSign.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = transportationSign.sks; sourceTree = "<group>"; };
+		D69BF0972819A79A008F6633 /* informationSign.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = informationSign.sks; sourceTree = "<group>"; };
+		D69BF0992819A9DC008F6633 /* chair.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = chair.sks; sourceTree = "<group>"; };
+		D6A5D1BD282360ED000AFBF5 /* plant.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = plant.sks; sourceTree = "<group>"; };
+		D6A5D1BF28236100000AFBF5 /* cafe_hall.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = cafe_hall.sks; sourceTree = "<group>"; };
+		D6A5D1C128236121000AFBF5 /* hole_wall.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = hole_wall.sks; sourceTree = "<group>"; };
 		D6AD16E9280E3D1800EBD76C /* objectDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = objectDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6AD16EC280E3D1800EBD76C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6AD16EE280E3D1800EBD76C /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -57,13 +77,23 @@
 		D6AD16EB280E3D1800EBD76C /* objectDetection */ = {
 			isa = PBXGroup;
 			children = (
+				D6882A46281B42CE00B12DD1 /* video.mp4 */,
 				D6AD16EC280E3D1800EBD76C /* AppDelegate.swift */,
 				D6AD16EE280E3D1800EBD76C /* art.scnassets */,
 				D6AD16F0280E3D1800EBD76C /* ViewController.swift */,
 				D6AD16F2280E3D1800EBD76C /* Main.storyboard */,
 				D6AD16F5280E3D1900EBD76C /* Assets.xcassets */,
 				D6AD16F7280E3D1900EBD76C /* LaunchScreen.storyboard */,
-				55FA21F7281B787000482BB2 /* Scene objects */,
+				D69BF08D2819A57C008F6633 /* gimmHallway.sks */,
+				D69BF08F2819A742008F6633 /* starbucks.sks */,
+				D69BF0912819A759008F6633 /* enterance_B.sks */,
+				D69BF0952819A784008F6633 /* transportationSign.sks */,
+				D69BF0932819A76E008F6633 /* directoryEnterance.sks */,
+				D69BF0972819A79A008F6633 /* informationSign.sks */,
+				D69BF0992819A9DC008F6633 /* chair.sks */,
+				D6A5D1BD282360ED000AFBF5 /* plant.sks */,
+				D6A5D1BF28236100000AFBF5 /* cafe_hall.sks */,
+				D6A5D1C128236121000AFBF5 /* hole_wall.sks */,
 			);
 			path = objectDetection;
 			sourceTree = "<group>";
@@ -126,11 +156,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55FA21F8281B787000482BB2 /* Scene objects in Resources */,
+				D6882A47281B42D400B12DD1 /* video.mp4 in Resources */,
+				D69BF08E2819A57C008F6633 /* gimmHallway.sks in Resources */,
+				D6A5D1C028236100000AFBF5 /* cafe_hall.sks in Resources */,
+				D69BF0982819A79A008F6633 /* informationSign.sks in Resources */,
+				D69BF09A2819A9DC008F6633 /* chair.sks in Resources */,
 				D6AD16EF280E3D1800EBD76C /* art.scnassets in Resources */,
 				D6AD16F9280E3D1900EBD76C /* LaunchScreen.storyboard in Resources */,
+				D69BF0962819A784008F6633 /* transportationSign.sks in Resources */,
+				D69BF0922819A759008F6633 /* enterance_B.sks in Resources */,
+				D69BF0942819A76E008F6633 /* directoryEnterance.sks in Resources */,
+				D6A5D1C228236121000AFBF5 /* hole_wall.sks in Resources */,
 				D6AD16F6280E3D1900EBD76C /* Assets.xcassets in Resources */,
+				D69BF0902819A742008F6633 /* starbucks.sks in Resources */,
 				D6AD16F4280E3D1800EBD76C /* Main.storyboard in Resources */,
+				D6A5D1BE282360ED000AFBF5 /* plant.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
