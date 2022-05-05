@@ -15,6 +15,7 @@
 		D69BF0962819A784008F6633 /* transportationSign.sks in Resources */ = {isa = PBXBuildFile; fileRef = D69BF0952819A784008F6633 /* transportationSign.sks */; };
 		D69BF0982819A79A008F6633 /* informationSign.sks in Resources */ = {isa = PBXBuildFile; fileRef = D69BF0972819A79A008F6633 /* informationSign.sks */; };
 		D69BF09A2819A9DC008F6633 /* chair.sks in Resources */ = {isa = PBXBuildFile; fileRef = D69BF0992819A9DC008F6633 /* chair.sks */; };
+		D69EC23328237ADC00B693A4 /* cafe_sign.sks in Resources */ = {isa = PBXBuildFile; fileRef = D69EC23228237ADC00B693A4 /* cafe_sign.sks */; };
 		D6A5D1BE282360ED000AFBF5 /* plant.sks in Resources */ = {isa = PBXBuildFile; fileRef = D6A5D1BD282360ED000AFBF5 /* plant.sks */; };
 		D6A5D1C028236100000AFBF5 /* cafe_hall.sks in Resources */ = {isa = PBXBuildFile; fileRef = D6A5D1BF28236100000AFBF5 /* cafe_hall.sks */; };
 		D6A5D1C228236121000AFBF5 /* hole_wall.sks in Resources */ = {isa = PBXBuildFile; fileRef = D6A5D1C128236121000AFBF5 /* hole_wall.sks */; };
@@ -35,6 +36,7 @@
 		D69BF0952819A784008F6633 /* transportationSign.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = transportationSign.sks; sourceTree = "<group>"; };
 		D69BF0972819A79A008F6633 /* informationSign.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = informationSign.sks; sourceTree = "<group>"; };
 		D69BF0992819A9DC008F6633 /* chair.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = chair.sks; sourceTree = "<group>"; };
+		D69EC23228237ADC00B693A4 /* cafe_sign.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = cafe_sign.sks; sourceTree = "<group>"; };
 		D6A5D1BD282360ED000AFBF5 /* plant.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = plant.sks; sourceTree = "<group>"; };
 		D6A5D1BF28236100000AFBF5 /* cafe_hall.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = cafe_hall.sks; sourceTree = "<group>"; };
 		D6A5D1C128236121000AFBF5 /* hole_wall.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = hole_wall.sks; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				D6A5D1BD282360ED000AFBF5 /* plant.sks */,
 				D6A5D1BF28236100000AFBF5 /* cafe_hall.sks */,
 				D6A5D1C128236121000AFBF5 /* hole_wall.sks */,
+				D69EC23228237ADC00B693A4 /* cafe_sign.sks */,
 			);
 			path = objectDetection;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 				D69BF0922819A759008F6633 /* enterance_B.sks in Resources */,
 				D69BF0942819A76E008F6633 /* directoryEnterance.sks in Resources */,
 				D6A5D1C228236121000AFBF5 /* hole_wall.sks in Resources */,
+				D69EC23328237ADC00B693A4 /* cafe_sign.sks in Resources */,
 				D6AD16F6280E3D1900EBD76C /* Assets.xcassets in Resources */,
 				D69BF0902819A742008F6633 /* starbucks.sks in Resources */,
 				D6AD16F4280E3D1800EBD76C /* Main.storyboard in Resources */,

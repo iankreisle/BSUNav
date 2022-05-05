@@ -188,22 +188,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         guard let objectName = objectAnchor.name else {return nil}
 
         //check to see if the name of the detected object is the one you want
-        if objectName == "bang"{
-            let plane = SCNPlane(width: CGFloat(objectAnchor.referenceObject.extent.x * 0.8), height: CGFloat(objectAnchor.referenceObject.extent.y * 0.5))
-            plane.cornerRadius = plane.width / 8
-            let spriteKitScene = SKScene(fileNamed: "gimmHallway")
-            plane.firstMaterial?.diffuse.contents = spriteKitScene
-            plane.firstMaterial?.isDoubleSided = true
-            plane.firstMaterial?.diffuse.contentsTransform = SCNMatrix4Translate(SCNMatrix4MakeScale(1, -1, 1), 0, 1, 0)
-            let planeNode = SCNNode(geometry: plane)
-            planeNode.position = SCNVector3Make(objectAnchor.referenceObject.center.x, objectAnchor.referenceObject.center.y + 0.35, objectAnchor.referenceObject.center.z)
 
-            //rotate node
-            let lookAtConstraint = SCNBillboardConstraint()
-            node.constraints = [lookAtConstraint]
-
-            node.addChildNode(planeNode)
-        }
         if objectName == "gimmHallway"{
             let plane = SCNPlane(width: CGFloat(objectAnchor.referenceObject.extent.x * 0.8), height: CGFloat(objectAnchor.referenceObject.extent.y * 0.5))
             plane.cornerRadius = plane.width / 8
@@ -300,12 +285,52 @@ class ViewController: UIViewController, ARSCNViewDelegate {
 
             node.addChildNode(planeNode)
         }
-        if objectName == "Chair"{
+        if objectName == "Cafe_Hall"{
             let plane = SCNPlane(width: CGFloat(objectAnchor.referenceObject.extent.x * 0.8), height: CGFloat(objectAnchor.referenceObject.extent.y * 0.5))
 
             plane.cornerRadius = plane.width / 8
 
-            let spriteKitScene = SKScene(fileNamed: "chair")
+            let spriteKitScene = SKScene(fileNamed: "cafe_hall")
+
+            plane.firstMaterial?.diffuse.contents = spriteKitScene
+            plane.firstMaterial?.isDoubleSided = true
+            plane.firstMaterial?.diffuse.contentsTransform = SCNMatrix4Translate(SCNMatrix4MakeScale(1, -1, 1), 0, 1, 0)
+            let planeNode = SCNNode(geometry: plane)
+            planeNode.position = SCNVector3Make(objectAnchor.referenceObject.center.x, objectAnchor.referenceObject.center.y + 0.35, objectAnchor.referenceObject.center.z)
+
+            //rotate node
+            let lookAtConstraint = SCNBillboardConstraint()
+            node.constraints = [lookAtConstraint]
+
+            //adds the spriteNode to the object
+            node.addChildNode(planeNode)
+        }
+        if objectName == "Cafe_Sign"{
+            let plane = SCNPlane(width: CGFloat(objectAnchor.referenceObject.extent.x * 0.8), height: CGFloat(objectAnchor.referenceObject.extent.y * 0.5))
+
+            plane.cornerRadius = plane.width / 8
+
+            let spriteKitScene = SKScene(fileNamed: "cafe_sign")
+
+            plane.firstMaterial?.diffuse.contents = spriteKitScene
+            plane.firstMaterial?.isDoubleSided = true
+            plane.firstMaterial?.diffuse.contentsTransform = SCNMatrix4Translate(SCNMatrix4MakeScale(1, -1, 1), 0, 1, 0)
+            let planeNode = SCNNode(geometry: plane)
+            planeNode.position = SCNVector3Make(objectAnchor.referenceObject.center.x, objectAnchor.referenceObject.center.y + 0.35, objectAnchor.referenceObject.center.z)
+
+            //rotate node
+            let lookAtConstraint = SCNBillboardConstraint()
+            node.constraints = [lookAtConstraint]
+
+            //adds the spriteNode to the object
+            node.addChildNode(planeNode)
+        }
+        if objectName == "Plant_Pot"{
+            let plane = SCNPlane(width: CGFloat(objectAnchor.referenceObject.extent.x * 0.8), height: CGFloat(objectAnchor.referenceObject.extent.y * 0.5))
+
+            plane.cornerRadius = plane.width / 8
+
+            let spriteKitScene = SKScene(fileNamed: "plant")
 
             plane.firstMaterial?.diffuse.contents = spriteKitScene
             plane.firstMaterial?.isDoubleSided = true
